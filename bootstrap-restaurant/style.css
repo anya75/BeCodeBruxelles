@@ -1,0 +1,27 @@
+@media all and (max-width:768px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media all and (max-width: 998px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+.panel figcaption {
+    text-align: center;
+}
+.navbar-right {
+    margin-right: 10px;
+}
+figcaption {
+    text-align: center;
+}
+.panel-footer {
+    float: right;
+}
+#enTete {
+    background-image: url(accueil_files/resto3.jpeg);
+}

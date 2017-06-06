@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style>
+		.image {
+			width: 30px;
+			height: 20px;
+		}
+		
+		.glyphicon {
+			position: relative;
+			left: 550px;
+			top: 1px;
+		}
+		
+		#rel {
+			position: relative;
+			top: 1px;
+			left: 525px;
+		}
+		
+		.part3 {
+			background: cadetblue;
+			height: 200px;
+		}
+		
+		.part1 {
+			background: cadetblue;
+			height: 200px;
+		}
+		
+		.part2 {
+			background: cadetblue;
+			height: 200px;
+			text-align: justify;
+		}
+		
+		#pos {
+			position: relative;
+			top: -20px;
+			left: 10px;
+			color: white;
+		}
+		/* #pos {
+			display: flex;
+			flex: 0 0 10px;
+		} */
+		
+		.lab {
+			display: flex;
+			justify-content: space-around;
+		}
+
+	</style>
+
+	}
+
+</head>
+
+<body>
+
+	<div class="container">
+		<!-- menu navigateur -->
+		<div class="row">
+			<nav class="navbar navbar-inverse">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">
+							<img class="image " alt="Brand" src="bee3.jpeg" />
+						</a>
+					</div>
+
+					<ul class="nav navbar-nav navbar-left list-unlisted inline">
+						<li class="active">
+							<a href="#Features">Features</a>
+						</li>
+						<li>
+							<a href="#Docs">Docs</a>
+						</li>
+						<li>
+							<a href="#Bolg">Blog</a>
+						</li>
+						<li>
+							<a href="#Pricing">Princing</a>
+						</li>
+						<li><a href="#Contact">Contact</a>
+						</li>
+						<li>
+							<a href="#SignUp">SignUp</a>
+						</li>
+
+						<!-- <div class="nav navbar-nav navbar-right list-unlisted inline"> -->
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-user">
+          							
+          						</span>
+							</a>
+						</li>
+						<li id="rel"><a href="#"> LogIn</a></li>
+
+
+						<!-- </div> -->
+					</ul>
+
+
+				</div>
+			</nav>
+			<!-- ********************** fin partie menu navigateur *************  -->
+		</div>
+		<!-- partie deux de la page -->
+		<div class="row ">
+			<div class="col-md-4 part1">
+				<figure class="avatar avatar-bordered">
+					<img class="responsive" src="bella.png">
+					<figcaption id="pos"> GET </figcaption>
+				</figure>
+
+			</div>
+			<div class="col-md-8 part2">
+				<img class="image" src="bee3.jpeg">
+				<br/>
+				<span> The Plug And Play Database service </span>
+				<br/>
+				<span class="label label-default"> Start Building Now </span>
+
+			</div>
+		</div>
+		<!-- fin partie deux -->
+		<div class="row">
+			<div class="col-md-12">
+				<span> For Awesome Project with Deadlines </span>
+
+			</div>
+		</div>
+
+		<!-- partie 3 -->
+		<div class="row part3">
+			<div class="col-md-6">
+				<div class="row">
+					<b> > Simple to use</b>
+					<p>Et olim licet otiosae sint tribus pacataeque centuriae et nulla suffragiorum certamina set Pompiliani redierit securitas temporis per omnes tamen quotquot sunt partes terrarum. </p>
+
+				</div>
+				<div class="row">
+					<b> > Productif</b>
+					<p> Et olim licet otiosae sint tribus pacataeque centuriae et nulla suffragiorum certamina set Pompiliani redierit securitas temporis per omnes tamen quotquot sunt partes terrarum. </p>
+				</div>
+
+			</div>
+			<div class="col-md-6">
+				<div class="row">
+					<b> > Built for the modern web</b>
+					<p> Et olim licet otiosae sint tribus pacataeque centuriae et nulla suffragiorum certamina set Pompiliani redierit securitas temporis per omnes tamen quotquot sunt partes terrarum. </p>
+
+
+				</div>
+				<div class="row">
+					<b> > More than a database </b>
+					<p> Et olim licet otiosae sint tribus pacataeque centuriae et nulla suffragiorum certamina set Pompiliani redierit securitas temporis per omnes tamen quotquot sunt partes terrarum. </p>
+				</div>
+			</div>
+		</div>
+		<! fin de l apartie 3 -->
+		<div class="row">
+			<div class="col-md-12">
+				<span> Inovative Teams gets more than with turlututu.com</span>
+			</div>
+		</div>
+		<!-- partie labels --->
+
+		<div class="row">
+			<div class="col-md-12 lab">
+				<h1> <span class="label label-default"> Rest API  </span> </h1>
+				<h1> <span class="label label-default">Docs  </span> </h1>
+				<h1><span class="label label-default">Start Bulding  </span> </h1>
+			</div>
+		</div>
+
+
+		<!-- fin partie labels ----->
+		<!--     pied de page ------>
+		<footer>
+			<div class="row">
+				<nav class="navbar navbar-inverse">
+					<div class="container-fluid">
+						<div class="navbar-footer">
+						</div>
+					</div>
+					<ul class="nav navbar-nav navbar-left list-unlisted inline">
+						<li>
+							<a href="#Home">Home</a>
+						</li>
+						<li>
+							<a href="#About">About</a>
+						</li>
+						<li>
+							<a href="#Contact">Contact</a>
+						</li>
+						<li>
+							<a href="#Terms et Conditions"> Terms et Conditions</a>
+						</li>
+						<li><a href="#Privacy policy">Privacy Poloicy</a>
+						</li>
+					</ul>
+
+				</nav>
+			</div>
+
+		</footer>
+	</div>
+
+	</div>
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+
+
+</body>
+
+</html>

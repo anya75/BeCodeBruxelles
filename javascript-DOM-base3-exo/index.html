@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 5</title>
+</head>
+
+<body>
+  <div class="conteneur">
+    <img src="images/image1.jpg" id="image1" />
+    <img src="images/image2.jpg" id="image2" />
+    <img src="images/image3.jpg" id="image3" />
+    <img src="images/image4.jpg" id="image4" />
+    <img src="images/image5.jpg" id="image5" />
+  </div>
+  <!--<script type="text/javascript">
+        funct(){
+            var listImage=document.getElementByTagName("img");
+            var longeur=listImage.length;
+            var i;
+            for (i=0, i<=longuer, i++){
+             listImage.[i].addEventListener("mouseover", affiche());
+             
+            }
+            function affiche(){
+              image.src="images/image2.jjpg";
+            }
+        }
+   
+   </script>-->
+  <script>
+    var image = document.getElementsByTagName("img");
+    var j = 0;
+    for (j = 0; j <= image.length; j++) {
+      image[j].addEventListener("mouseover", affiche(event));
+    }
+
+    function affiche(event) {
+      alert(event.target.image.src);
+    }
+
+  </script>
+
+</body>
+
+</html>

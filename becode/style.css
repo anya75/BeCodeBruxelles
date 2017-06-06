@@ -1,0 +1,27 @@
+.misePage {
+    border: 1px black solid; 
+    color: white;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px; 
+    background-image: url("https://github.com/anya75/learning-environment/blob/master/images/hania.jpeg?raw=true");
+    background-size: contain; background-position: center;
+    
+    }
+body { background: #B4AF91}
+h1 {
+    font-family: pacifico;
+    
+}
+h2 {
+    text-align: center; 
+
+}
+#view {
+    color:black;
+   
+}
+@font-face {
+    font-family: pacifico;
+    src: url(spacifico.ttf);
+}

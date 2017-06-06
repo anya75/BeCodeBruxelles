@@ -1,0 +1,117 @@
+@charset "utf-8"
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: adelle-sans, "Helvetica Neuve", Arial, sans-serif;
+    margin: 0;
+    padding: :0;
+}
+
+body {
+    width: 1280px;
+    height: 680px;
+    background-color: #fff;
+    color: #202528;
+    font-size: 1em;
+    line-height: 1.5;
+    overflow-x: hidden;
+   
+}
+.imag {
+    width: 100px;
+    height: auto;
+}
+/*****************/
+header {
+    padding-top:20px;
+    background-color: #E9EDF2;
+}
+/**************************/
+
+.boton {
+    padding: .5em 1em;
+    display: inline-block;
+    height: 1.5em;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 5px 0 0;
+    position: relative;
+}
+/***********************/
+#tryBtn {
+  background-color: aqua;
+}
+/***********************/
+
+h1, h3 {
+    text-align: center;
+    display: inline;
+    font-size: 2.625em;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #202528;
+    font-family: adelle-sans,"Helvetica Neue",Arial,sans-serif;
+    padding: 0px;
+}
+/********************/
+@font-face{font-family:adelle-sans;src:url(https://use.typekit.net/af/012865/00000000000000003b9acf2e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/012865/00000000000000003b9acf2e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/012865/00000000000000003b9acf2e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;}
+/***********************/
+
+ article > p {
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif arial;
+}
+/**********************************/
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+/*******************************/
+#navG {
+    border: 0 none;
+    display: inline;
+    float: left;
+    margin: 0.25em 1em 0.25em 2em;
+    padding: 0;
+    position: relative;
+}
+/********************************/
+#navD{
+    float: right;
+    padding: 025em, 0;
+}
+/*****************************/
+
+.btnGr {
+  position: relative;
+}
+/***************************/
+.menuD{
+    color: #202528;
+    padding: 0.36em 0;
+    transition: all 0.2s ease-in-out 0s;
+    display: inline-block;
+    font-size: 1em;
+}
+a{
+  background-color: transparent;
+}
+/*******************************/
+un{
+  background-color: #e9edf2;
+    text-align: center;
+}
+/******************************/
+padd1{
+  padding-top: 1em;
+}
+hfw{
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+    margin-top: 30px;
+    color: #FFF;
+       
+    }
+

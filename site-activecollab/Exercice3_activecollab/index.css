@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+*{
+	/*outline: 1px solid red;*/
+}
+body{
+	background: #D2C9CC;
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.gauche, .droite{
+	background: #D2C9CC;	
+}
+
+.droite{
+	 float: right;
+}
+
+.gauche{
+	 float: left;
+}
+
+.lien {
+    color: black;
+    text-decoration: none;
+}
+
+.surUneLigne{
+	display: inline-block;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#more{
+	color: gray;
+}
+
+.element4{
+	display: inline-block;
+	/*outline: 1px solid red; /*Comme le border mais beaucoup plus fin pour perdre moins d'espace*/
+}
+
+.container{
+	text-align: center;
+	width:  1200px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+#titrePower{
+	text-align: center;
+	/*border: 1px solid red;*/
+	clear:right; /*mettre le p en dessous de la 2eme div.. On utilise le clear both la suite de 2 float*/
+	font-size: 35px;	
+}
+
+.divGeneral{
+	position:fixed; /*Pour que mon menu reste là même quand je descends dans le site avec ma scrollbar .menu*/
+	top:0; /*Pour que ma barre de nav. se positionne tout en haut 0.0*/
+	left:0;
+	display: inline;
+}
+
+.buttonTryIt{
+	background-color: #0C86EC;
+}
+
+.containerFooter{
+	outline: 1px solid red; 
+	width: 180px;
+	float: left;
+	margin-left: 10px;
+}
+
+.lienActiveCollabSecur{
+
+}
+/*
+section {
+	width: 1500px;
+	height: 300px;
+	background-color: #3F4655;
+	
+
+}
+
+
+/*
+p{
+	text-align: center;
+	font-size: 35px;
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+.texteExplication{
+	text-align: center;
+	font-size: 20px;
+}
+
+div{
+	float: right;
+}
+
+.button30{
+	color: green;
+	align: center;
+}
+
+#tryIt {
+	text-align: center;
+
+}
+*/

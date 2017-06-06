@@ -1,0 +1,15 @@
+.bod{
+    border: 1px solid black;
+    width: 1280px;
+    height: 680px;
+}
+
+
+
+td {
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+    display: inline;
+    
+}
